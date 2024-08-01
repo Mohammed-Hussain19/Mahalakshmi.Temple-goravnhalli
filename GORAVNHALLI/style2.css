@@ -1,0 +1,386 @@
+body{
+    height: 250vh;
+    width: 100%;
+   
+    background-color:antiquewhite;
+   
+}
+.nav{
+    height: 5%;
+    width: 100%;
+    background-color:rgb(11, 0, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 10px black;
+    color: aliceblue;
+    gap: 50vw;
+}.nav h3{
+    font-size: 3vw;
+
+}.home{
+    height: 40px;
+    width: 6vw;
+    border: none;
+    font-size: 1vw;
+    font-style: bold;
+    border-radius: 10px;
+    
+}
+.home a{
+    text-decoration: none;
+    border-radius: 20px;
+}
+.abouth{
+    font-size: 5vw;
+    text-align: center;
+
+}.abouth:hover{
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+    top: 2%;
+    height: 70%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.block{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    height: 30%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 50px black;
+
+}.pop{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+.second{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+}
+.first1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.first1 img{
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20%;
+}
+.second1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    box-shadow: 10px 10px 50px black;
+}
+.para{
+    
+    font-size: 1.5vw;
+    text-align: center;
+}
+.block2{
+    height: 30%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 10px 10px 50px black;
+}
+.second2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color:transparent;
+   
+}.li{
+    font-size: 1.8vw;
+}
+
+.container div,.bless{
+    border-radius: 50px;
+    animation: change linear;
+    animation-timeline: view();
+    animation-range:0 entry;
+    position: relative;
+}.second2 img{
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20%;
+}
+@keyframes change {
+    from{
+        scale: 0;
+        opacity: 0.1;
+        right: 300px;
+    }to{
+        scale: 1;
+        opacity: 1;
+       right: 0;
+    }
+}
+.block3{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first3{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    box-shadow: 10px 10px 40px black;
+}.thank{
+    font-size: 7vw;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.bless{
+    position: relative;
+    top: 2%;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bless1{
+    height: 90%;
+    width: 70%;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 40px black;
+}.blessg{
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pop2{
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    body{
+        height: 250vh;
+        width: 100%;
+    }
+    .nav{
+        height: 4%;
+        width: 100%;
+        background-color:rgb(11, 0, 110);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 39vw;
+        border-radius: 30px;
+    }.nav h3{
+        font-size: 3.5vw;
+    
+    }.home{
+        height: 40px;
+        width: 15vw;
+        border: none;
+        font-size: 4vw;
+        font-style: bold;
+
+    }
+    .abouth{
+        font-size: 7vw;
+    }
+    .container{
+        height: 70%;
+        width: 100%;
+        display: flex;justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vw;
+
+    }.block{
+        height: 20%;
+        width: 100%;
+    }.first{
+        height: 100%;
+        width: 90%;
+    }.para{
+        font-size: 2.8vw;
+    }
+    .pop{
+        font-size: 6vw;
+    }
+
+    .block1{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2vw;
+    }.first1{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }.second1{
+        height: 60%;
+        width: 95%;
+    }.first1 img{
+        height: 90%;
+        width: 70%;
+        border-radius: 20px;
+    }
+    .block2{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .first2{
+        height: 50%;
+        width: 100%;
+    }.second2{
+        height: 50%;
+        width: 100%;
+    }
+    .second2 img{
+        height: 95%;
+        width: 80%;
+        border-radius: 20px;
+    }.li{
+        font-size: 2.8vw;
+
+    }.block3{
+        height: 40%;
+    }.li2{
+        font-size: 2.9vw;
+    }.pop2{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .bless{
+        height: 10%;
+        width: 100%;
+    }.bless1{
+        height: 90%;
+        width: 100%;
+    }.thank{
+        position: relative;
+        top: 5%;
+    }
+}
